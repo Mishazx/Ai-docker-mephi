@@ -1,0 +1,35 @@
+{
+  "bias": 0.5,
+  "weights": {
+    "good": 0.8,
+    "great": 0.9,
+    "excellent": 0.95,
+    "amazing": 0.95,
+    "wonderful": 0.9,
+    "love": 0.85,
+    "best": 0.9,
+    "happy": 0.85,
+    "awesome": 0.9,
+    "fantastic": 0.95,
+    "perfect": 0.9,
+    "beautiful": 0.85,
+    "brilliant": 0.9,
+    "nice": 0.75,
+    "positive": 0.8,
+    "bad": 0.2,
+    "terrible": 0.05,
+    "awful": 0.1,
+    "horrible": 0.05,
+    "hate": 0.15,
+    "worst": 0.1,
+    "poor": 0.25,
+    "sad": 0.2,
+    "disappointing": 0.2,
+    "negative": 0.2,
+    "useless": 0.15,
+    "boring": 0.3,
+    "ugly": 0.2,
+    "mediocre": 0.4
+  }
+}
+

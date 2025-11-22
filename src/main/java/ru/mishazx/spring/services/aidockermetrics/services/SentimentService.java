@@ -19,7 +19,7 @@ public class SentimentService {
     private final SentimentModel model;
 
     public SentimentService(ObjectMapper objectMapper) {
-        this.model = SentimentModelLoader.load(objectMapper, "/model/sentiment-model.json");
+        this.model = SentimentModelLoader.load(objectMapper, "model/sentiment-model.json");
     }
 
     public SentimentResult analyze(String text) {

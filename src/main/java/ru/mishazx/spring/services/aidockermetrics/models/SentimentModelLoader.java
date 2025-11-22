@@ -11,7 +11,7 @@ public final class SentimentModelLoader {
     }
 
     public static SentimentModel load(ObjectMapper mapper, String resourcePath) {
-        try (InputStream inputStream = SentimentModelLoader.class.getResourceAsStream(resourcePath)) {
+        try (InputStream inputStream = SentimentModelLoader.class.getClassLoader().getResourceAsStream(resourcePath)) {
             if (inputStream == null) {
                 throw new IllegalStateException("Не найден ресурс модели: " + resourcePath);
             }

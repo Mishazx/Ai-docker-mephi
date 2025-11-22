@@ -1,0 +1,6 @@
+# Исключаем target, чтобы не мешать сборке, но ресурсы должны копироваться
+/target
+!.mvn
+!.mvn/wrapper
+**/.DS_Store
+**/Thumbs.db
